@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<resources>
+		<string-array name="app_type">
+			<item>用户程序</item>
+			<item>系统程序</item>
+			<item>全部程序</item>
+		</string-array>
+		<string-array name="num">
+			<item>0</item>
+			<item>1</item>
+			<item>2</item>
+		</string-array>
+		<string-array name="color">
+			<item>#FFE7CF71</item>
+			<item>#FFE16363</item>
+			<item>#FF97E37F</item>
+		</string-array>
+	</resources>

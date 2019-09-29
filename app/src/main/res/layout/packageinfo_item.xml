@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:minHeight="54dp"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="center_vertical">
+
+	<ImageView
+		android:src="@android:drawable/ic_delete"
+		android:layout_width="52dp"
+		android:layout_height="52dp"
+		android:scaleType="centerInside"
+		android:layout_marginStart="8dp"
+		android:layout_marginEnd="8dp"
+		android:id="@+id/icon"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/title"
+			android:textSize="18sp"
+			android:singleLine="true"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/packagename"
+			android:textSize="10sp"
+			android:singleLine="true"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/mode"
+			android:textSize="14sp"
+			android:singleLine="true"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
